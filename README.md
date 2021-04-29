@@ -4,7 +4,7 @@ The repository contains two data sets associated with vaccine hesitancy on Twitt
 The associated paper to this repository can be found here: (link to the paper).
 
 ## Data Organization
-The "streaming-tweetids" folder corresponds to the streaming data set whereas the "user-oriented-tweetids" folder corresponds to the user-oriented data set. All the files are named by numbers starting from 0 and are in the .txt form.
+The "streaming-tweetids" folder corresponds to the streaming data set whereas the "user-oriented-tweetids" folder corresponds to the user-oriented data set. All the files are in .txt format. User-oriented files are named from 0 to 387. Streaming files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
 
 ## Notes about the data
 1. Only English tweets are considered.
@@ -12,23 +12,23 @@ The "streaming-tweetids" folder corresponds to the streaming data set whereas th
    1. Streaming data set
         | Attribute      | Value |
         | ----------- | ----------- |
-        | Number of tweets      | 716,672 |
-        | Number of users   | 268,582 |
-        | Verified accounts      | 3,104 |
-        | Average tweet per user   | 2.7 |
-        | User with location      | 1,311 |
+        | Number of tweets      | 1,832,333 |
+        | Number of users   | 719,652 |
+        | Verified accounts      | 9,032 |
+        | Average tweet per user   | 2.5 |
+        | User with location      | 5,661 |
         | Oldest tweet   | 2010-10-19 |
-        | Most recent tweet   | 2021-02-03 |
+        | Most recent tweet   | 2021-04-21 |
     2. User-oriented data set
         | Attribute      | Value |
         | ----------- | ----------- |
-        | Number of tweets      | 120,058,028 |
-        | Number of users   | 78,958 |
-        | Verified accounts      | 298 |
-        | Average tweet per user   | 1520.5 |
-        | User with location      | 373 |
+        | Number of tweets      | 135,949,773 |
+        | Number of users   | 78,954 |
+        | Verified accounts      | 239 |
+        | Average tweet per user   | 1721.8 |
+        | User with location      | 363 |
         | Oldest tweet   | 2007-03-06 |
-        | Most recent tweet   | 2021-02-03 |
+        | Most recent tweet   | 2021-02-02 |
 3. You may consider using tools such as the Hydrator and Twarc to rehydrate the Tweet IDs. For detailed instructions please see the next section.
 
 ## How to Hydrate
