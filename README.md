@@ -1,15 +1,15 @@
 # Avax tweets dataset
-The repository contains two data sets associated with vaccine hesitancy on Twitter. The "streaming" data set contains tweets collected by leveraging Twitter streaming API to listen to the set of anti-vaccine keywords. You can see the full list of these keywords in keywords.txt. The "account" data set contains historical tweets of users who are susceptible to anti-vaccine narratives. To comply with [Twitter's Term of Service](https://twitter.com/en/tos), only tweet IDs are released. The data is for non-commercial research purposes only. It is our hope that it will help those who are studying and tracking anti-vaccine misinformation on social media and enable the understanding of public vaccine hesitancy more.
+The repository contains two collections associated with vaccine hesitancy on Twitter. The "streaming" collection contains tweets collected by leveraging Twitter streaming API to listen to the set of anti-vaccine keywords. You can see the full list of these keywords in keywords.txt. The "account" collection contains historical tweets of accounts that are susceptible to anti-vaccine narratives. To comply with [Twitter's Term of Service](https://twitter.com/en/tos), only tweet IDs are released. The data is for non-commercial research purposes only. It is our hope that it will help those who are studying and tracking anti-vaccine misinformation on social media and enable the understanding of public vaccine hesitancy more.
 
 The associated paper to this repository can be found here: (link to the paper).
 
 ## Data Organization
-The "streaming-tweetids" folder corresponds to the streaming collection set whereas the "account-tweetids" folder corresponds to the account collection. All the files are in .txt format. User-oriented files are named from 0 to 387. Streaming files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
+The "streaming-tweetids" folder corresponds to the streaming collection whereas the "account-tweetids" folder corresponds to the account collection. All the files are in .txt format. Account collection files are named from 0 to 387. Streaming collection files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
 
 ## Notes about the data
 1. Only English tweets are considered.
-2. The overview of two data sets are summarized in below:
-   1. Streaming data set
+2. The overview of our data set are summarized in below:
+   1. Streaming collection
         | Attribute      | Value |
         | ----------- | ----------- |
         | Number of tweets      | 1,832,333 |
@@ -19,7 +19,7 @@ The "streaming-tweetids" folder corresponds to the streaming collection set wher
         | User with location      | 5,661 |
         | Oldest tweet   | 2010-10-19 |
         | Most recent tweet   | 2021-04-21 |
-    1. Account data set
+    1. Account collection
         | Attribute      | Value |
         | ----------- | ----------- |
         | Number of tweets      | 135,949,773 |
