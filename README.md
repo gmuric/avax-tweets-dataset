@@ -19,7 +19,7 @@ The "streaming-tweetids" folder corresponds to the streaming collection set wher
         | User with location      | 5,661 |
         | Oldest tweet   | 2010-10-19 |
         | Most recent tweet   | 2021-04-21 |
-    2. User-oriented data set
+    1. Account data set
         | Attribute      | Value |
         | ----------- | ----------- |
         | Number of tweets      | 135,949,773 |
