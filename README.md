@@ -10,15 +10,15 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 1. Only English tweets are considered.
 2. The overview of our data collections are summarized below:
 
-      | Streaming collection | Account collection |
-      | ----------- | ----------- | ----------- |
-      | Number of tweets      | 1,832,333 | 135,949,773 |
-      | Number of users   | 719,652 | 78,954 |
-      | Verified accounts      | 9,032 | 239 |
-      | Average tweet per user   | 2.5 | 1721.8 |
-      | User with location      | 5,661 | 363 |
-      | Oldest tweet   | 2010-10-19 | 2007-03-06 |
-      | Most recent tweet   | 2021-04-21 | 2021-02-02 |
+| Streaming collection | Account collection |
+| ----------- | ----------- | ----------- |
+| Number of tweets      | 1,832,333 | 135,949,773 |
+| Number of users   | 719,652 | 78,954 |
+| Verified accounts      | 9,032 | 239 |
+| Average tweet per user   | 2.5 | 1721.8 |
+| User with location      | 5,661 | 363 |
+| Oldest tweet   | 2010-10-19 | 2007-03-06 |
+| Most recent tweet   | 2021-04-21 | 2021-02-02 |
         
 3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
 
