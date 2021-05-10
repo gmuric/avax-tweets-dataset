@@ -50,6 +50,6 @@ python3 hydrate.py
 import tweepy
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth, retry_count=5, retry_delay=2, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
-api.statuses_lookup(list_of_ids) #consider the limitations in the tweepy documentation
+api.statuses_lookup(list_of_ids) #consider the limitations in tweepy documentation
 
 ```
