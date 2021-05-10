@@ -9,7 +9,6 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 ## Notes about the data
 1. Only English tweets are considered.
 2. The overview of our data collections are summarized below:
-      
         |             | Streaming collection | Account collection |
         | ----------- | ----------- | ----------- |
         | Number of tweets      | 1,832,333 | 135,949,773 |
@@ -20,7 +19,7 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
         | Oldest tweet   | 2010-10-19 | 2007-03-06 |
         | Most recent tweet   | 2021-04-21 | 2021-02-02 |
         
-3. You may consider using tools such as the Hydrator and Twarc to rehydrate the Tweet IDs. For detailed instructions please see the next section.
+3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
 
 ## How to Hydrate
 ### Hydrating using Hydrator (GUI)
@@ -43,3 +42,8 @@ Run the script. The hydrated Tweets will be stored in the same folder as the Twe
 ```
 python3 hydrate.py
 ```
+### Hydrating using Tweepy:
+import tweepy
+auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
+api = tweepy.API(auth, retry_count=5, retry_delay=2, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+api.statuses_lookup(list_of_ids) #consider the limitations in the tweepy documentation
