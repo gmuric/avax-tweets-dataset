@@ -4,7 +4,7 @@ The repository contains two collections associated with vaccine hesitancy on Twi
 The associated paper to this repository can be found here: (link to the paper).
 
 ## Data Organization
-The "streaming-tweetids" folder corresponds to the streaming collection whereas the "account-tweetids" folder corresponds to the account collection. All the files are in .txt format. Account collection files are named from 0 to 387. Streaming collection files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
+The "streaming-tweetids" folder corresponds to the streaming collection whereas the "account-tweetids" folder corresponds to the account collection. All the files are in .txt format, each containing the list of tweet IDs. Account collection files are named from 0 to 387. Streaming collection files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
 
 ## Notes about the data
 1. Only English tweets are considered.
