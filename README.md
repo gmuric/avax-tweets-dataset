@@ -8,28 +8,8 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 
 ## Notes about the data
 1. Only English tweets are considered.
-2. The overview of our data set are summarized in below:
-   1. Streaming collection
-        | Attribute      | Value |
-        | ----------- | ----------- |
-        | Number of tweets      | 1,832,333 |
-        | Number of users   | 719,652 |
-        | Verified accounts      | 9,032 |
-        | Average tweet per user   | 2.5 |
-        | User with location      | 5,661 |
-        | Oldest tweet   | 2010-10-19 |
-        | Most recent tweet   | 2021-04-21 |
-    1. Account collection
-        | Attribute      | Value |
-        | ----------- | ----------- |
-        | Number of tweets      | 135,949,773 |
-        | Number of users   | 78,954 |
-        | Verified accounts      | 239 |
-        | Average tweet per user   | 1721.8 |
-        | User with location      | 363 |
-        | Oldest tweet   | 2007-03-06 |
-        | Most recent tweet   | 2021-02-02 |
-        
+2. The overview of our data collections are summarized below:
+      
         |             | Streaming collection | Account collection |
         | ----------- | ----------- | ----------- |
         | Number of tweets      | 1,832,333 | 135,949,773 |
