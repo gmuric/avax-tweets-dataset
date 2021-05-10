@@ -23,6 +23,10 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 
 3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## How to Hydrate
 ### Hydrating using Hydrator (GUI)
