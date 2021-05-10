@@ -11,7 +11,7 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 2. The overview of our data collections are summarized below:
 
 | Streaming collection | Account collection |
-| ----------- | ----------- | ----------- |
+| ---- | ---- | ---- |
 | Number of tweets      | 1,832,333 | 135,949,773 |
 | Number of users   | 719,652 | 78,954 |
 | Verified accounts      | 9,032 | 239 |
