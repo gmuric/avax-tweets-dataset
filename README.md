@@ -46,7 +46,10 @@ Run the script. The hydrated Tweets will be stored in the same folder as the Twe
 python3 hydrate.py
 ```
 ### Hydrating using Tweepy:
+```
 import tweepy
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth, retry_count=5, retry_delay=2, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 api.statuses_lookup(list_of_ids) #consider the limitations in the tweepy documentation
+
+```
