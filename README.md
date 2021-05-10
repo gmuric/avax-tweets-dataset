@@ -8,13 +8,7 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 
 ## Notes about the data
 1. Only English tweets are considered.
-2. The overview of our data collections are summarized below:
-
-
-
-
-3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
-
+2. The overview of our data collections are summarized below
 
 | Streaming collection | Account collection |
 | ---- | ---- | ---- |
@@ -25,6 +19,10 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 | User with location      | 5,661 | 363 |
 | Oldest tweet   | 2010-10-19 | 2007-03-06 |
 | Most recent tweet   | 2021-04-21 | 2021-02-02 |
+
+
+3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
+
 
 ## How to Hydrate
 ### Hydrating using Hydrator (GUI)
