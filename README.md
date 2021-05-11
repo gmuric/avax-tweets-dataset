@@ -13,10 +13,10 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 |   | Streaming collection | Account collection |
 | ---- | ---- | ---- |
 | Number of tweets      | 1,832,333 | 135,949,773 |
-| Number of users   | 719,652 | 78,954 |
+| Number of accounts   | 719,652 | 78,954 |
 | Verified accounts      | 9,032 | 239 |
-| Average tweets per user   | 2.5 | 1721.8 |
-| User with location      | 5,661 | 363 |
+| Average tweets per account   | 2.5 | 1721.8 |
+| Accounts with location      | 5,661 | 363 |
 | Oldest tweet   | 2010-10-19 | 2007-03-06 |
 | Most recent tweet   | 2021-04-21 | 2021-02-02 |
 
