@@ -1,5 +1,5 @@
 # Avax tweets dataset
-The repository contains two collections associated with vaccine hesitancy on Twitter. The "streaming collection" contains tweets collected by leveraging Twitter streaming API to listen to the set of anti-vaccine keywords. You can see the full list of these keywords in keywords.txt. The "account collection" contains historical tweets of accounts that are susceptible to anti-vaccine narratives. To comply with [Twitter's Term of Service](https://twitter.com/en/tos), only tweet IDs are released. The data is for non-commercial research purposes only. It is our hope that it will help those who are studying and tracking anti-vaccine misinformation on social media and enable better understanding of vaccine hesitancy.
+The repository contains two collections associated with vaccine hesitancy on Twitter. The "streaming collection" contains tweets collected by leveraging Twitter streaming API to listen to the set of anti-vaccine keywords. You can see the full list of these keywords in keywords.txt. The "account collection" contains historical tweets of accounts that are susceptible to anti-vaccine narratives. To comply with [Twitter's Terms of Service](https://twitter.com/en/tos), only tweet IDs are released. The data is for non-commercial research purposes only. It is our hope that it will help those who are studying and tracking anti-vaccine misinformation on social media and enable better understanding of vaccine hesitancy.
 
 The associated paper to this repository can be found here: https://arxiv.org/pdf/2105.05134.pdf
 
@@ -54,3 +54,20 @@ api = tweepy.API(auth, retry_count=5, retry_delay=2, wait_on_rate_limit=True, wa
 api.statuses_lookup(list_of_ids) #consider the limitations in tweepy documentation
 
 ```
+# Data Usage Agreement / How to Cite
+By using this dataset, you agree to remain in compliance with [Twitter's Term of Service](https://twitter.com/en/tos), and cite the following manuscript:
+Muric G, Wu Y, Ferrara E. COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Dataset of Anti-vaccine Content, Vaccine Misinformation and Conspiracies, arXiv preprint 2021.
+
+```
+@article{Muric2021,
+archivePrefix = {arXiv},
+arxivId = {2105.05134},
+author = {Muric, Goran and Wu, Yusong and Ferrara, Emilio},
+eprint = {2105.05134},
+month = {may},
+title = {{COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Dataset of Anti-vaccine Content, Vaccine Misinformation and Conspiracies}},
+url = {http://arxiv.org/abs/2105.05134},
+year = {2021}
+}
+```
+
