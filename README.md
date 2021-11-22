@@ -65,13 +65,19 @@ Muric G, Wu Y, Ferrara E. COVID-19 Vaccine Hesitancy on Social Media: Building a
 
 ```
 @article{Muric2021,
-archivePrefix = {arXiv},
-arxivId = {2105.05134},
 author = {Muric, Goran and Wu, Yusong and Ferrara, Emilio},
+doi = {10.2196/30642},
 eprint = {2105.05134},
-month = {may},
-title = {{COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Dataset of Anti-vaccine Content, Vaccine Misinformation and Conspiracies}},
-url = {http://arxiv.org/abs/2105.05134},
+issn = {2369-2960},
+journal = {JMIR Public Health Surveill 2021;7(11):e30642 https://publichealth.jmir.org/2021/11/e30642},
+keywords = {COVID-19,COVID-19 vaccines,SARS-CoV-2,Twitter,conspiracy,dataset,hesitancy,misinformation,network analysis,public health,social media,trust,utilization,vaccine,vaccine hesitancy},
+month = {nov},
+number = {11},
+pages = {e30642},
+publisher = {JMIR Public Health and Surveillance},
+title = {{COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Data Set of Antivaccine Content, Vaccine Misinformation, and Conspiracies}},
+url = {https://publichealth.jmir.org/2021/11/e30642},
+volume = {7},
 year = {2021}
 }
 ```
