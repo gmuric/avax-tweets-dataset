@@ -1,7 +1,7 @@
 # Avax tweets dataset
 The repository contains two collections associated with vaccine hesitancy on Twitter. The "streaming collection" contains tweets collected by leveraging Twitter streaming API to listen to the set of anti-vaccine keywords. You can see the full list of these keywords in keywords.txt. The "account collection" contains historical tweets of accounts that are susceptible to anti-vaccine narratives. To comply with [Twitter's Terms of Service](https://twitter.com/en/tos), only tweet IDs are released. The data is for non-commercial research purposes only. It is our hope that it will help those who are studying and tracking anti-vaccine misinformation on social media and enable better understanding of vaccine hesitancy.
 
-The associated paper to this repository can be found here: https://arxiv.org/pdf/2105.05134.pdf
+The associated paper to this repository can be found here: https://publichealth.jmir.org/2021/11/e30642
 
 ## Data Organization
 The "streaming-tweetids" folder corresponds to the streaming collection whereas the "account-tweetids" folder corresponds to the account collection. All the files are in .txt format, each containing the list of tweet IDs. Account collection files are named from 0 to 387. Streaming collection files are organized into 7 folders, each corresponds to a month of year 2020 and 2021.
