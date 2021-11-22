@@ -61,8 +61,7 @@ api.statuses_lookup(list_of_ids) #consider the limitations in tweepy documentati
 ```
 # Data Usage Agreement / How to Cite
 By using this dataset, you agree to remain in compliance with [Twitter's Terms of Service](https://twitter.com/en/tos), and cite the following manuscript:
-Muric G, Wu Y, Ferrara E. COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Dataset of Anti-vaccine Content, Vaccine Misinformation and Conspiracies, arXiv:2105.05134 [cs.SI] 2021.
-
+Muric G, Wu Y, Ferrara E. COVID-19 Vaccine Hesitancy on Social Media: Building a Public Twitter Data Set of Antivaccine Content, Vaccine Misinformation, and Conspiracies. JMIR Public Heal Surveill 2021;7(11)E30642
 ```
 @article{Muric2021,
 author = {Muric, Goran and Wu, Yusong and Ferrara, Emilio},
