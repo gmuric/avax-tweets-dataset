@@ -18,7 +18,7 @@ from twarc import Twarc
 from pathlib import Path
 
 twarc = Twarc()
-data_dirs = ['2020-10', '2020-11', '2020-12', '2021-01', '2021-02', '2021-03', '2021-04']
+data_dirs = ['2020-10', '2020-11', '2020-12', '2021-01', '2021-02'] #modify to include all dirs you want to hydrate from
 
 
 def main():
