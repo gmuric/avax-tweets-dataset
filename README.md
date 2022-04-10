@@ -12,13 +12,13 @@ The "streaming-tweetids" folder corresponds to the streaming collection whereas 
 
 |   | Streaming collection | Account collection |
 | ---- | ---- | ---- |
-| Number of tweets      | 32,922,845 | 135,949,773 |
-| Number of accounts   | 4,926,438 | 78,954 |
+| Number of tweets      | 53,598,237 | 135,949,773 |
+| Number of accounts   | 8,120,945 | 78,954 |
 | Verified accounts      | - | 239 |
 | Average tweets per account   | 6.6 | 1721.8 |
 | Accounts with location      | - | 363 |
 | Oldest tweet   | 2010-10-19 | 2007-03-06 |
-| Most recent tweet   | 2021-11-15 | 2021-02-02 |
+| Most recent tweet   | 2022-04-08 | 2021-02-02 |
 
 
 3. You may consider using tools such as the Hydrator, Twarc and tweepy to rehydrate the Tweet IDs. For detailed instructions please see the next section.
